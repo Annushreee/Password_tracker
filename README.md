@@ -21,3 +21,4 @@ A simple password tracker built using **HTML, CSS, JavaScript, Axios, and CrudCr
 * Axios
 * REST API / CrudCrud
 
+<img width="3840" height="2160" alt="Screenshot 2026-09-07 133350" src="https://github.com/user-attachments/assets/f276968f-d422-48db-b256-eb7ad614b352" />
