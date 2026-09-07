@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #f4f6f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+#heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#add{
+    text-align: center;
+    margin-bottom: 30px;
+    background: #d1dfec;
+}
+
+#heading h1 {
+    margin-bottom: 10px;
+}
+
+#passwordCount {
+    font-weight: bold;
+}
+
+#formContainer {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#formContainer h2 {
+    margin-top: 0;
+}
+
+#passwordForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#passwordForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#passwordForm input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#passwordForm button {
+    padding: 11px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#passwordForm button:hover {
+    opacity: 0.85;
+}
+
+#search {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchBtn,
+#showAllBtn {
+    color: #000305;
+    background: #5ba0e0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#searchBtn:hover,
+#showAllBtn:hover {
+    opacity: 0.85;
+}
+
+#passwordsList {
+    list-style: none;
+    padding: 0;
+}
+
+#passwordsList li {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+#passwordsList strong {
+    font-size: 18px;
+}
+
+.deleteBtn {
+    background: #fb8d8d;
+    padding: 7px 12px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.editBtn{
+    background: #5be08c;
+    padding: 7px 12px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editBtn:hover,
+.deleteBtn:hover {
+    opacity: 0.8;
+}
+
+#formContainer > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.showPasswordBtn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}

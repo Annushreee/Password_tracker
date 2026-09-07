@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="heading">
+
+        <h1>Password Tracker</h1>
+        <p>
+            Total passwords saved:
+            <span id="passwordCount">0</span>
+        </p>
+        <label for="search">Search by website name:</label>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Enter website name"
+        >
+
+        <button id="searchBtn">
+            Search Password
+        </button>
+
+        <button id="showAllBtn">
+            Show All Passwords
+        </button>
+
+    </div>
+
+
+    <!-- Add Password Form -->
+    <div id="formContainer">
+
+        <h2>Add New Password</h2>
+
+        <form id="passwordForm">
+
+            <label for="website">Website:</label>
+            <input type="text" id="website" required>
+
+            <br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+
+            <br>
+
+            <button type="submit" id="add">
+                Add Password
+            </button>
+
+        </form>
+
+        <h2>My Passwords</h2>
+
+        <div id="passwordsList"></div>
+
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
